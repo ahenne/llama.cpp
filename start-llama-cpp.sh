@@ -18,7 +18,9 @@ llama serve --list-devices
   -ngl 99 \
   -c 131072 \
   -ctk q4_0 -ctv q4_0 \
-  -b 512 -ub 512 
+  -b 512 -ub 512 \
+  --temp 0.5 \
+  --metrics 
 #llama serve -dev CUDA0 \
   -m /home/alex/models/Bartowski-Qwen3.8-27B-Q4_K_M.gguf \
   --spec-type draft-mtp \
