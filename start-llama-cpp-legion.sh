@@ -10,12 +10,12 @@ llama serve --list-devices
   --mmproj /home/alex/models/Unsloth-mmproj-BF16.gguf \
   --spec-type draft-mtp \
   --spec-draft-n-max 2 \
-  --port 8080 \
+  --port 9931 \
   --host 0.0.0.0 \
   --jinja \
   -fa on \
   -ngl 99 \
-  -c 124000 \
+  -c 128000 \
   -ctk q8_0 -ctv q8_0 \
   -b 4096 -ub 1024 \
   --temp 0.2 \
